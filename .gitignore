@@ -1,0 +1,54 @@
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+
+# Rider / VSCode / VS
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+
+# Build outputs
+out/
+publish/
+artifacts/
+
+# Logs
+*.log
+
+# OS / misc
+[Dd]esktop.ini
+[Tt]humbs.db
+*.swp
+*.DS_Store
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+
+# Generated
+Generated*/
+
+# Tooling
+.env
+.env.*
+
+# JetBrains
+*.DotSettings.user
+
+# Resharper
+_ReSharper.Caches/
+
+# Coverage
+coverage*/
+*.coverage
+*.coveragexml
+
+# Local secrets
+secrets.json
+
