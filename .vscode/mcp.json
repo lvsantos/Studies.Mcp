@@ -1,0 +1,14 @@
+{
+"servers": {
+  "studies-mcp-server": {
+	"type": "stdio",
+	"command": "dotnet",
+	"args": [
+	  "run",
+	  "--project",
+	  "Studies.MCP.Server/Studies.MCP.Server.csproj"
+	]
+  }
+},
+"inputs": []
+}
