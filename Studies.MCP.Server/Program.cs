@@ -1,6 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+Console.WriteLine($"Hello, Studies for MCP Server!");
+
 var builder = Host.CreateEmptyApplicationBuilder(settings: null);
 
 builder.Services
